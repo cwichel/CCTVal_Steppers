@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.0.0">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,10 +24,10 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
@@ -2634,44 +2635,44 @@ design rules under a new name.</description>
 <element name="H5" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="63.5" y="82.55"/>
 <element name="H6" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="63.5" y="3.81"/>
 <element name="X2" library="con-wago-500" package="W237-4" value="" x="25.4" y="81.28" smashed="yes" rot="R180">
-<attribute name="OC_FARNELL" value="unknown" x="25.4" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="25.4" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="25.4" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="25.4" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="25.4" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="33.0524" y="86.3092" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="X3" library="con-wago-500" package="W237-4" value="" x="50.8" y="81.28" smashed="yes" rot="R180">
-<attribute name="OC_FARNELL" value="unknown" x="50.8" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="50.8" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="50.8" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="50.8" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="50.8" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="58.4524" y="86.3092" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="X4" library="con-wago-500" package="W237-4" value="" x="76.2" y="81.28" smashed="yes" rot="R180">
-<attribute name="OC_FARNELL" value="unknown" x="76.2" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="76.2" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="76.2" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="76.2" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="76.2" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="83.8524" y="86.3092" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="X5" library="con-wago-500" package="W237-4" value="" x="76.2" y="5.08" smashed="yes">
-<attribute name="OC_FARNELL" value="unknown" x="76.2" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="76.2" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="76.2" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="76.2" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="76.2" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="68.5476" y="0.0508" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="X6" library="con-wago-500" package="W237-4" value="" x="50.8" y="5.08" smashed="yes">
-<attribute name="OC_FARNELL" value="unknown" x="50.8" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="50.8" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="50.8" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="50.8" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="50.8" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="43.1476" y="0.0508" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="X7" library="con-wago-500" package="W237-4" value="" x="25.4" y="5.08" smashed="yes">
-<attribute name="OC_FARNELL" value="unknown" x="25.4" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="25.4" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="25.4" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="25.4" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="25.4" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="17.7476" y="0.0508" size="1.27" layer="27" ratio="10"/>
 </element>
