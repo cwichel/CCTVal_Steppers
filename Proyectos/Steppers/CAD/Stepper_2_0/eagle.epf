@@ -620,10 +620,10 @@ UsedLibrary="/home/wiche/Programs/eagle-8.0.0/lbr/seeed/Seeed-OPL-sensor.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="0 25 681 740"
-State=2
+Loc="684 25 2049 740"
+State=1
 Number=0
 
 [Desktop]
-Screen="1366 768"
+Screen="2726 768"
 Window="Win_1"
