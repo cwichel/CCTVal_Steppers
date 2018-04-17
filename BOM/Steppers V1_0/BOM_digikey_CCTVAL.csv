@@ -1,0 +1,35 @@
+//Steppers #####################################################
+//Quantity, Product
+15,S1011EC-40-ND,	//Header, male, 01x40 					 
+10,3M9172-ND,		//Header, male, 02x02 			
+35,952-2121-ND,		//Header, male, 02x03 			
+25,609-3243-ND,		//Header, male, 02x05 			
+60,S7041-ND,		//Header, female, 01x08 		
+10,ED2609-ND,		//Term. Block, Screw, 01x02		
+35,ED2611-ND,		//Term. Block, Screw, 01x04 	
+60,455-2651-ND,		//Female connector hausing		 
+125,455-2652-1-ND,	//Female connector copper 		
+50,754-1442-1-ND,	//Leds 							
+50,311-22.0FRCT-ND,	//22R, 0.25W, 1% 				
+40,TC33X-103EDKR-ND,//10KR Trimm, 0.1W 				
+25,399-1249-6-ND,	//0.1uC, 10% 					
+25,587-1337-1-ND, 	//10uC, 10% 					
+35,P5182-ND,		//100uC, 20% (Pololu) 			
+60,679-2428-ND, 	//6mmx6mm Switch 				
+50,A26228-ND,		//Selector jumpers 				
+30,1597-1046-ND, 	//Heat sink kit		 
+2,EB1093-ND,		//Copper whool (solder)
+1,82-105-ND,		//Solder w/flux
+1,SMD291-ND,		//Flux
+1,TSM1-ND,			//Solder dispenser
+1,V8910-ND,			//Vacuum tool
+1,243-1223-ND,		//Circuit board holder
+1,243-1156-ND, 		//Soldering iron holder
+2,TETS-ND,			//Soldering iron tip 0.015'
+2,ETA-ND,			//Soldering iron tip 0.062'
+2,T0051384099-ND,	//Soldering iron clean sponge
+15,EG4378CT-ND,		//Tactile Switch	-> Sebastian Segreste
+15,P15936SCT-ND,	//Tactile Switch
+25,BC4.70ZCT-ND,	//4.7 Resistor 0.6W, 1%
+15,3306F-103-ND, 	//Trimm 10K 0.2W
+25,515PB-ND, 		//Switch Pushbutton SPST 2A 14V
